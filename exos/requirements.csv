@@ -1,0 +1,3 @@
+nom;id;stereotype;text;parent;relation;category
+moncompte.dawan.fr;0;system;service dawan;;;system
+s'autentifier;1.0;requirement;formulaire login/mdp;0;containment;requirement
