@@ -1,0 +1,81 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0" version="29.6.1">
+  <diagram name="Page-1" id="6vUJj2uxsAqgWBMk8byi">
+    <mxGraphModel dx="786" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HdbRmRaN-PW92B40R_0--47" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" value="participant:Trainee" vertex="1">
+          <mxGeometry height="60" width="30" x="110" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="HdbRmRaN-PW92B40R_0--48" parent="1" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;strokeColor=#006EAF;fontColor=#ffffff;fillColor=#1ba1e2;" value="&lt;div&gt;nom générique des acteurs/classes en collaboration&lt;/div&gt;&amp;lt;instance&amp;gt;/&amp;lt;rôle&amp;gt;:&amp;lt;Class&amp;gt;" vertex="1">
+          <mxGeometry height="60" width="295" x="30" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HdbRmRaN-PW92B40R_0--49" parent="1" style="html=1;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" value=":Auth" vertex="1">
+          <mxGeometry height="50" width="110" x="304" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="HdbRmRaN-PW92B40R_0--50" parent="1" style="html=1;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" value=":SSO" vertex="1">
+          <mxGeometry height="50" width="110" x="550" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="HdbRmRaN-PW92B40R_0--51" edge="1" parent="1" source="HdbRmRaN-PW92B40R_0--47" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.583;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;endArrow=block;endFill=1;" target="HdbRmRaN-PW92B40R_0--49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HdbRmRaN-PW92B40R_0--52" connectable="0" parent="HdbRmRaN-PW92B40R_0--51" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" value="1. logged := auth(usr, pwd)" vertex="1">
+          <mxGeometry relative="1" x="-0.0139" y="-1" as="geometry">
+            <mxPoint x="16" y="-28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HdbRmRaN-PW92B40R_0--53" edge="1" parent="1" source="HdbRmRaN-PW92B40R_0--49" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.589;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="HdbRmRaN-PW92B40R_0--50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="240" as="sourcePoint" />
+            <mxPoint x="381" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HdbRmRaN-PW92B40R_0--54" connectable="0" parent="HdbRmRaN-PW92B40R_0--53" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" value="2. sso_logged := sso_auth(usr, pwd)" vertex="1">
+          <mxGeometry relative="1" x="-0.0139" y="-1" as="geometry">
+            <mxPoint x="36" y="-43" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HdbRmRaN-PW92B40R_0--55" parent="1" style="html=1;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" value=":Presence" vertex="1">
+          <mxGeometry height="50" width="110" x="205" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="HdbRmRaN-PW92B40R_0--56" edge="1" parent="1" source="HdbRmRaN-PW92B40R_0--47" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.023;entryY=0.629;entryDx=0;entryDy=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;endArrow=block;endFill=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" target="HdbRmRaN-PW92B40R_0--55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="230" as="sourcePoint" />
+            <mxPoint x="341" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HdbRmRaN-PW92B40R_0--57" connectable="0" parent="HdbRmRaN-PW92B40R_0--56" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" value="4. [ created ] [ *session in sessions ] edited := edit(training_id, session)" vertex="1">
+          <mxGeometry relative="1" x="-0.0139" y="-1" as="geometry">
+            <mxPoint x="270" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HdbRmRaN-PW92B40R_0--58" edge="1" parent="1" source="HdbRmRaN-PW92B40R_0--47" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.845;entryY=-0.023;entryDx=0;entryDy=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;endArrow=block;endFill=1;entryPerimeter=0;" target="HdbRmRaN-PW92B40R_0--55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="280" as="sourcePoint" />
+            <mxPoint x="222" y="401" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HdbRmRaN-PW92B40R_0--59" connectable="0" parent="HdbRmRaN-PW92B40R_0--58" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" value="3. [ logged == true ] created := create_sign(training_id)" vertex="1">
+          <mxGeometry relative="1" x="-0.0139" y="-1" as="geometry">
+            <mxPoint x="-27" y="115" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HdbRmRaN-PW92B40R_0--60" edge="1" parent="1" source="HdbRmRaN-PW92B40R_0--47" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;entryX=0.482;entryY=1.043;entryDx=0;entryDy=0;entryPerimeter=0;" target="HdbRmRaN-PW92B40R_0--48" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280" y="290" as="sourcePoint" />
+            <mxPoint x="330" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HdbRmRaN-PW92B40R_0--61" parent="1" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;strokeColor=#006EAF;fontColor=#ffffff;fillColor=#1ba1e2;" value="&lt;div&gt;nomenclature générique d&#39;un message&lt;/div&gt;&lt;div&gt;&amp;lt;n°seq&amp;gt;. [condition] [*iteration] ret := msg(params)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="295" x="380" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HdbRmRaN-PW92B40R_0--62" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;entryX=0.353;entryY=1.005;entryDx=0;entryDy=0;entryPerimeter=0;" target="HdbRmRaN-PW92B40R_0--61" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="470" y="200" as="sourcePoint" />
+            <mxPoint x="330" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
